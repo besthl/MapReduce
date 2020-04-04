@@ -1,7 +1,7 @@
 # MapReduce
 First Example:
 ```
-docker run \
+sudo docker run \
   -v $(pwd):/usr/local/hadoop/py \
   -it sequenceiq/hadoop-docker:2.7.1 \
   /usr/local/hadoop/py/py_runner.sh grep
@@ -14,7 +14,7 @@ output:
 
 Second Example:
 ```
-docker run \
+sudo docker run \
   -v $(pwd):/usr/local/hadoop/py \
   -it sequenceiq/hadoop-docker:2.7.1 \
   /usr/local/hadoop/py/py_runner.sh count
