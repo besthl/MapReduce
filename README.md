@@ -53,6 +53,6 @@ Command 3--all the words that start with a single capital letter :
 sudo docker run \
   -v $(pwd):/usr/local/hadoop/py \
   -it sequenceiq/hadoop-docker:2.7.1 \
-  /usr/local/hadoop/py/py_runner2.sh grep2 ^[A-Z]*$
+  /usr/local/hadoop/py/py_runner2.sh grep2 [A-Z]
 ```
 No output matched
