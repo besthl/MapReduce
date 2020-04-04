@@ -2,7 +2,7 @@
 
 /etc/bootstrap.sh
 THIS_DIR=/usr/local/hadoop
-
+#-n :True if the length of string is non-zero
 if [ -n "$1" ];
 then SUB_DIR="$1/" 
 fi
