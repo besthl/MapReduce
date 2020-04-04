@@ -29,7 +29,8 @@ docker run \
 
 expected output:
 
-![Plot](screenshots/Result_1 .png)
+
+![Plot](screenshots/Result_1.png)
 
 ```
 foo	6
@@ -43,7 +44,7 @@ As you can imagine, the fix is not to hardcode all of these scenarios inside the
 
 Another example:
 
-![Plot](screenshots/Result_2 .png)
+![Plot](screenshots/Result_2.png)
 
 ```
 docker run \
