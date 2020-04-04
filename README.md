@@ -48,7 +48,7 @@ sudo docker run \
 ```
 No output matched
 
-Command 3--all the words that start with a single capital letter :
+Command 3--all the words that have capital letters :
 ```
 sudo docker run \
   -v $(pwd):/usr/local/hadoop/py \
