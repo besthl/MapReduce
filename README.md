@@ -27,6 +27,18 @@ Outupt:
 *Answer*:
 To grep anything we want by command, first, I imported a package called” re” in mapping.py to match the pattern we want to search for.  Then I still used the for-loop to split the words and count it. After that, I used an if statement “if re.match(pattern, word)” to print out anything that matches with the pattern we made by argument. 
 
+Command 1--all the words that have "oo" :
+```
+sudo docker run \
+  -v $(pwd):/usr/local/hadoop/py \
+  -it sequenceiq/hadoop-docker:2.7.1 \
+  /usr/local/hadoop/py/py_runner2.sh grep2 ^[oo]*$
+```
+Output:
+```
+foo	6
+```
+
 Command 2-- all the words that start in "k" but end in "e" :
 ```
 sudo docker run \
@@ -34,5 +46,13 @@ sudo docker run \
   -it sequenceiq/hadoop-docker:2.7.1 \
   /usr/local/hadoop/py/py_runner2.sh grep2 ^k|e$
 ```
+No output matched
 
-
+Command 3--all the words that start with a single capital letter :
+```
+sudo docker run \
+  -v $(pwd):/usr/local/hadoop/py \
+  -it sequenceiq/hadoop-docker:2.7.1 \
+  /usr/local/hadoop/py/py_runner2.sh grep2 ^[A-Z]*$
+```
+No output matched
