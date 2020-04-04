@@ -28,7 +28,7 @@ docker run \
 (notice the **grep** keyword at the end - corresponds to the folder **grep**!)
 
 expected output:
-
+![PLOT](Result 1 Screen Shot .png)
 ```
 foo	6
 quux	4
