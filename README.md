@@ -32,7 +32,7 @@ Command 1--all the words that have "oo" :
 sudo docker run \
   -v $(pwd):/usr/local/hadoop/py \
   -it sequenceiq/hadoop-docker:2.7.1 \
-  /usr/local/hadoop/py/py_runner2.sh grep2 ^[oo]*$
+  /usr/local/hadoop/py/py_runner2.sh grep2 ^f.o
 ```
 Output:
 ```
