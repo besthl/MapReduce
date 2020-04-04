@@ -28,7 +28,9 @@ docker run \
 (notice the **grep** keyword at the end - corresponds to the folder **grep**!)
 
 expected output:
+
 ![Plot](screenshots of results/Result_1 .png)
+
 ```
 foo	6
 quux	4
@@ -40,7 +42,9 @@ As you can imagine, the fix is not to hardcode all of these scenarios inside the
 
 
 Another example:
+
 ![Plot](screenshots of results/Result_2 .png)
+
 ```
 docker run \
   -v $(pwd):/usr/local/hadoop/py \
