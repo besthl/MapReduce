@@ -35,9 +35,8 @@ sudo docker run \
   /usr/local/hadoop/py/py_runner2.sh grep2 oo
 ```
 Output:
-```
-foo	6
-```
+
+![Plot](screenshots/Result_3.png)
 
 Command 2-- all the words that start in "k" but end in "e" :
 ```
