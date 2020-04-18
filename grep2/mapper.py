@@ -15,7 +15,7 @@ for line in sys.stdin:
         # write the results to STDOUT (standard output);
         # tab-delimited; the trivial word count is 1
         # match the pattern we input by command.
-        if re.match(pattern, word):
+        if re.search(pattern, word):
             print '%s\t%s' % (word, 1)
         else:
             print '%s\t%s' % (word, 0)
